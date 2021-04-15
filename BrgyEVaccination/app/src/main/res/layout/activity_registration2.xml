@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@android:color/holo_red_dark"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<RelativeLayout
+
+
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+    tools:context=".Registration2">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofchild"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="55dp"
+        android:layout_toEndOf="@+id/dd1"
+        android:layout_toRightOf="@+id/dd1"
+        android:text="/"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:alpha="0.3"
+        app:srcCompat="@drawable/_" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofchild"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="55dp"
+        android:layout_toEndOf="@+id/mm1"
+        android:layout_toRightOf="@+id/mm1"
+        android:text="/"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:text="Child's  Data"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bplace"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofchild"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Birth Place"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#ede10c" />
+
+    <EditText
+        android:id="@+id/mm1"
+        android:maxLength="2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofchild"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/textView18"
+        android:layout_toRightOf="@+id/textView18"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="mm"
+        android:inputType="numberSigned"
+        android:textColor="@color/white"
+        android:textColorHint="#ede10c" />
+
+    <EditText
+        android:id="@+id/dd1"
+        android:maxLength="2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofchild"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/mm1"
+        android:layout_toRightOf="@+id/mm1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="dd"
+        android:inputType="numberSigned"
+        android:textColor="@color/white"
+        android:textColorHint="#ede10c" />
+
+    <EditText
+        android:id="@+id/yyyy1"
+        android:maxLength="4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofchild"
+        android:layout_alignEnd="@+id/nameofchild"
+        android:layout_alignRight="@+id/nameofchild"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toEndOf="@+id/textView19"
+        android:layout_toRightOf="@+id/textView19"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="yyyy"
+        android:inputType="numberSigned"
+        android:textColor="@color/white"
+        android:textColorHint="#ede10c" />
+
+    <EditText
+        android:id="@+id/nameofchild"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Name of child"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#ede10c" />
+
+    <Button
+
+        android:id="@+id/next_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bplace"
+        android:layout_alignStart="@+id/bplace"
+        android:layout_alignLeft="@+id/bplace"
+        android:layout_alignEnd="@+id/bplace"
+        android:layout_alignRight="@+id/bplace"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:onClick="regnow"
+        android:text="Next"
+        android:backgroundTint="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="363dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Select Barangay"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/bplace"
+        android:layout_alignLeft="@+id/bplace"
+        android:layout_alignEnd="@+id/bplace"
+        android:layout_alignRight="@+id/bplace"
+        android:layout_marginStart="-15dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="r1click"
+            android:text="District 1"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="r2click"
+            android:text="District 2"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/bplace"
+        android:layout_alignLeft="@+id/bplace"
+        android:layout_alignEnd="@+id/bplace"
+        android:layout_alignRight="@+id/bplace"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginRight="-25dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofchild"
+        android:layout_alignStart="@+id/nameofchild"
+        android:layout_alignLeft="@+id/nameofchild"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="55dp"
+        android:text="Birthday :"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Sex"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp" >
+
+        <RadioButton
+            android:id="@+id/radMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radfemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+</RelativeLayout>
+</ScrollView>

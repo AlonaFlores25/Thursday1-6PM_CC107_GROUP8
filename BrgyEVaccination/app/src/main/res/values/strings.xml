@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Brgy. E-Vaccination</string>
+    <string-array name="District1">
+        <item>Bagumbayan</item>
+        <item>Bambang</item>
+        <item>Calzada</item>
+        <item>Hagonoy</item>
+        <item>Ibayo-Tipas</item>
+        <item>Ligid Tipas</item>
+        <item>Lower Bicutan</item>
+        <item>New Lower Bic.</item>
+        <item>Napindand</item>
+        <item>Palingon</item>
+        <item>San Miguel</item>
+        <item>Santa Ana</item>
+        <item>Tuktukan</item>
+        <item>Ususan</item>
+        <item>Wawa</item>
+    </string-array>
+
+    <string-array name="District2">
+        <item>Central Bicutan</item>
+        <item>Central Signal Village</item>
+        <item>Fort Bonifacio</item>
+        <item>Katuparan</item>
+        <item>Maharlika Village	</item>
+        <item>North Daang Hari</item>
+        <item>North Signal Village</item>
+        <item>Pinagsama</item>
+        <item>South Daang Hari	</item>
+        <item>South Signal Village</item>
+        <item>Bagong Tanyag</item>
+        <item>Upper Bicutan</item>
+        <item>Western Bicutan	</item>
+    </string-array>
+
+</resources>
